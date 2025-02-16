@@ -157,15 +157,21 @@ function App() {
                 <div className="text-2xl font-semibold">THINKER</div>
               </div>
               <div className="flex flex-col gap-3">
+                <a href="https://www.instagram.com/__mukul_._?igsh=MWN5anRvemVhNG1wMw==">
                 <div className="h-16 w-16 border-solid border-2 border-black rounded-full flex justify-center items-center hover:scale-150 duration-300 ease-in">
                   <img className="h-8" src={insta} alt="" />
                 </div>
+                </a>
+                <a href="https://linkedin.com/in/shatadru-mukhopadhyay-6a5a4b291">
                 <div className="h-16 w-16 border-solid border-2 border-black rounded-full flex justify-center items-center hover:scale-150 duration-300 ease-in">
                   <img className="h-8" src={linked} alt="" />
                 </div>
+                </a>
+                <a href="https://github.com/ShatadruM">
                 <div className="h-16 w-16 border-solid border-2 border-black rounded-full flex justify-center items-center hover:scale-150 duration-300 ease-in">
                   <img className="h-8" src={github} alt="" />
                 </div>
+                </a>
               </div>
             </div>
             <div className="bg-green w-screen h-16 translate-y-10 overflow-hidden py-1 whitespace-nowrap flex">
