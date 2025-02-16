@@ -4,7 +4,7 @@ import linked from "../assets/linked.png";
 import github from "../assets/github.png";
 import arrow from "../assets/arrow.png";
 import project1 from "../assets/project1.jpg";
-import project2 from "../assets/project2.jpg";
+import project2 from "../assets/project2.png"
 import resume from "../assets/My_Resume.pdf";
 import { useRef } from "react";
 import gsap from "gsap";
@@ -36,20 +36,20 @@ function App() {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: textRef1.current,
-        start: "top 90%", // Trigger when the first element enters the viewport
+        start: "top 110%", // Trigger when the first element enters the viewport
         scrub: 1,
       },
     });
 
-    tl.to(textRef1.current, { opacity: 1, duration: 0.5, ease: "ease-out" })
+    tl.to(textRef1.current, { opacity: 1, duration: 0.2, ease: "ease-out" })
       .to(
         textRef2.current,
-        { opacity: 1, duration: 0.5, ease: "ease-out" },
+        { opacity: 1, duration: 0.2, ease: "ease-out" },
         
       ) 
       .to(
         textRef3.current,
-        { opacity: 1, duration: 0.5, ease: "ease-out" },
+        { opacity: 1, duration: 0.2, ease: "ease-out" },
         
       ); 
 
@@ -227,11 +227,11 @@ function App() {
             id="work"
             className="h-[90vh] px-custom pt-24 bg-skin flex-col  "
           >
-            <div className="py-10 text-2xl text-stone-500">Recent work</div>
+            <div className="py-10 text-2xl text-stone-700">Recent work</div>
             <a href="https://crypt-talk.vercel.app/">
               <div
                 ref={containerRef}
-                className="relative py-10 flex justify-between items-center  border-t-2 border-b-2 cursor-pointer "
+                className="relative py-10 flex justify-between items-center border-stone-400 border-t-2 border-b-2 cursor-pointer "
               >
                 <div className="text-5xl">Crypt Chat</div>
                 <img
