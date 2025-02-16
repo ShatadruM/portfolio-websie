@@ -112,15 +112,17 @@ function App() {
             <div>shatadru</div>
           </a>
           <div className="routes">
-            <div className="relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[1px] after:bg-black after:transition-[width] after:duration-300 after:ease-in-out hover:after:w-10 cursor-pointer">
+            <a href="#about"><div className="relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[1px] after:bg-black after:transition-[width] after:duration-300 after:ease-in-out hover:after:w-10 cursor-pointer">
               about
-            </div>
-            <div className="relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[1px] after:bg-black after:transition-[width] after:duration-300 after:ease-in-out hover:after:w-8 cursor-pointer">
+            </div></a>
+            <a href="#work"><div className="relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[1px] after:bg-black after:transition-[width] after:duration-300 after:ease-in-out hover:after:w-8 cursor-pointer">
               work
-            </div>
+            </div></a>
+            <a href="#contact">
             <div className="relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[1px] after:bg-black after:transition-[width] after:duration-300 after:ease-in-out hover:after:w-14 cursor-pointer">
               contact
             </div>
+            </a>
           </div>
         </nav>
         <div className="overflow-x-hidden">
@@ -271,7 +273,7 @@ function App() {
               </a>
             </div>
           </div>
-          <div className="relative h-screen bg-greenyellow px-custom py-24">
+          <div id="contact" className="relative h-screen bg-greenyellow px-custom py-24">
               <div className="absolute scale-[3] bottom-0 translate-x-56 -translate-y-12 text-darkgreen text-9xl opacity-50">Shatadru</div>
             
             <div className="flex justify-between items-center border-b border-black pb-24">
